@@ -2,7 +2,7 @@ require 'sqlite3'
 require 'fileutils'
 
 # Define la ubicación del backup y la carpeta de destino
-backup_directory = '/Users/[user]/Downloads/Backups/00008110-0014344026F1401E'
+backup_directory = '/Users/[user]/Downloads/Backups/[id_device_bk]'
 destination_directory = '/Users/[user]/Documents/Project/RubyIphoneExtractor/files'
 manifest_db_path = File.join(backup_directory, 'Manifest.db')
 
